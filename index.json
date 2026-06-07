@@ -31,6 +31,31 @@
           "size": 1380344
         }
       }
+    },
+    {
+      "name": "fastfetch",
+      "version": "2.64.2",
+      "description": "System information tool (Android only; needs API 28+)",
+      "homepage": "https://github.com/fastfetch-cli/fastfetch",
+      "platforms": {
+        "android": {
+          "arm64-v8a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/fastfetch-arm64-v8a",
+            "sha256": "09abff190c1f8b203f9c6a0b163896e6d6f5741ea883fb3a191ba81ec2cb6983",
+            "size": 1526184
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/fastfetch-armeabi-v7a",
+            "sha256": "a5418ede25442f0d6bc2d4c618a23c4027a1b9b058f662a486462b89e9b49e99",
+            "size": 1197816
+          },
+          "x86_64": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/fastfetch-x86_64",
+            "sha256": "038c4207adb492c966f1ea60c40a28c7dfd595891d5fb10bbe5351bfb214ff21",
+            "size": 1633768
+          }
+        }
+      }
     }
   ]
 }
