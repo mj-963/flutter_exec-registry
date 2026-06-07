@@ -11,24 +11,19 @@
         "android": {
           "arm64-v8a": {
             "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq-arm64-v8a",
-            "sha256": "TODO_FILL_AFTER_BUILD",
-            "size": 0
+            "sha256": "ef1e25e5fcfe34ccb2dd101e95307a294668bdbad89414e26a47c78f1b71dbd9",
+            "size": 807672
           },
           "armeabi-v7a": {
             "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq-armeabi-v7a",
-            "sha256": "TODO_FILL_AFTER_BUILD",
-            "size": 0
+            "sha256": "1f66ce37834380c927fbe3812e52cd727003441dcc8a26dc2ce2e452a33fe9b8",
+            "size": 807360
           },
           "x86_64": {
             "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq-x86_64",
-            "sha256": "TODO_FILL_AFTER_BUILD",
-            "size": 0
+            "sha256": "0f1342661eef43a4e0615464a678e02177dd264e3e49ce0d4f9a21a00970bdb4",
+            "size": 806600
           }
-        },
-        "ios": {
-          "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq.wasm",
-          "sha256": "TODO_FILL_AFTER_BUILD",
-          "size": 0
         }
       }
     }
