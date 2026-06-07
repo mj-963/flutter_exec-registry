@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "updated": "2026-06-07",
+  "packages": [
+    {
+      "name": "jq",
+      "version": "1.7.1",
+      "description": "Command-line JSON processor",
+      "homepage": "https://jqlang.github.io/jq/",
+      "platforms": {
+        "android": {
+          "arm64-v8a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq-arm64-v8a",
+            "sha256": "TODO_FILL_AFTER_BUILD",
+            "size": 0
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq-armeabi-v7a",
+            "sha256": "TODO_FILL_AFTER_BUILD",
+            "size": 0
+          },
+          "x86_64": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq-x86_64",
+            "sha256": "TODO_FILL_AFTER_BUILD",
+            "size": 0
+          }
+        },
+        "ios": {
+          "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq.wasm",
+          "sha256": "TODO_FILL_AFTER_BUILD",
+          "size": 0
+        }
+      }
+    }
+  ]
+}

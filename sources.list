@@ -1,0 +1,6 @@
+# flutter_exec package-manager community sources.
+# One registry index.json URL per line. Lines starting with '#' are comments.
+# The app ships with the official source compiled in; entries here are extra
+# community registries a build can opt into.
+
+# https://example.com/my-registry/index.json
