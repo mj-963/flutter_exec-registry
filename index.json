@@ -24,6 +24,11 @@
             "sha256": "0f1342661eef43a4e0615464a678e02177dd264e3e49ce0d4f9a21a00970bdb4",
             "size": 806600
           }
+        },
+        "ios": {
+          "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/jq.wasm",
+          "sha256": "a585c7447a43a5c0aad6b782608f82db5df6069e61eb8e9ce6793c6665041c16",
+          "size": 1380344
         }
       }
     }
