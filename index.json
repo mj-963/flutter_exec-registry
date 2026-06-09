@@ -115,6 +115,31 @@
           }
         }
       }
+    },
+    {
+      "name": "ripgrep",
+      "version": "15.1.0",
+      "description": "Fast recursive search (rg). Termux-relocated; Android arm64 only.",
+      "homepage": "https://github.com/BurntSushi/ripgrep",
+      "platforms": {
+        "android": {
+          "arm64-v8a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/ripgrep-arm64-v8a.tar.gz",
+            "sha256": "7a3e25aaadb9e7ded2017c6294682260a1e3dec08f1a099d9d8bebfab385a88c",
+            "size": 3301225,
+            "kind": "archive",
+            "entrypoint": "usr/bin/rg",
+            "commands": ["rg"],
+            "env": {
+              "PREFIX": "$ROOT/usr",
+              "TERMUX_PREFIX": "$ROOT/usr",
+              "PATH": "$ROOT/usr/bin:$PATH",
+              "LD_LIBRARY_PATH": "$ROOT/usr/lib",
+              "LD_PRELOAD": "$ROOT/usr/lib/libtermux-exec.so"
+            }
+          }
+        }
+      }
     }
   ]
 }
