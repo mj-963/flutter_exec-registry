@@ -56,6 +56,65 @@
           }
         }
       }
+    },
+    {
+      "name": "lua",
+      "version": "5.4.8",
+      "description": "Lua interpreter (Android only)",
+      "homepage": "https://www.lua.org/",
+      "platforms": {
+        "android": {
+          "arm64-v8a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/lua-arm64-v8a",
+            "sha256": "cd2286fb87fbd784ac49b59863769317297d31db20b914c7eadc2f69848d5c31",
+            "size": 271936
+          },
+          "armeabi-v7a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/lua-armeabi-v7a",
+            "sha256": "a61cfa2e792a81aea86b49653c1c0b8c2fd10ebf626f067dcf26319f28d6a334",
+            "size": 246184
+          },
+          "x86_64": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/lua-x86_64",
+            "sha256": "12fab66a29779e44677092af21a20dd1622eb17b3dba8a13f3400b6c9c0c9671",
+            "size": 267032
+          }
+        }
+      }
+    },
+    {
+      "name": "python",
+      "version": "3.13.7",
+      "description": "Python 3 interpreter (Android only; iOS ships Python built-in)",
+      "homepage": "https://www.python.org/",
+      "platforms": {
+        "android": {
+          "arm64-v8a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/python-arm64-v8a.tar.gz",
+            "sha256": "c39b5128d329714c9b4d66b4eec82a5f330a7a00d5ade19129b84b40a760b9af",
+            "size": 9633509,
+            "kind": "archive",
+            "entrypoint": "bin/python3.13",
+            "commands": ["python3", "python"],
+            "env": {
+              "PYTHONHOME": "$ROOT",
+              "LD_LIBRARY_PATH": "$ROOT/lib"
+            }
+          },
+          "x86_64": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/python-x86_64.tar.gz",
+            "sha256": "d45b61ef362ef1663443a8d06f4c35b41059c8f834c94f177271b74f5895d0de",
+            "size": 9887629,
+            "kind": "archive",
+            "entrypoint": "bin/python3.13",
+            "commands": ["python3", "python"],
+            "env": {
+              "PYTHONHOME": "$ROOT",
+              "LD_LIBRARY_PATH": "$ROOT/lib"
+            }
+          }
+        }
+      }
     }
   ]
 }
