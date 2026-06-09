@@ -164,6 +164,30 @@
           }
         }
       }
+    },
+    {
+      "name": "dash",
+      "version": "0.5.12",
+      "description": "POSIX sh (dash). Termux-relocated; bundles a shim-proof script. Android arm64 only.",
+      "homepage": "http://gondor.apana.org.au/~herbert/dash/",
+      "platforms": {
+        "android": {
+          "arm64-v8a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/dash-arm64-v8a.tar.gz",
+            "sha256": "3ee4f6e0c15143988244f2b319e40e5a0685d6368198bc27cfeae65b52d15f1f",
+            "size": 78879,
+            "kind": "archive",
+            "binDir": "usr/bin",
+            "env": {
+              "PREFIX": "$ROOT/usr",
+              "TERMUX_PREFIX": "$ROOT/usr",
+              "PATH": "$ROOT/usr/bin:$PATH",
+              "LD_LIBRARY_PATH": "$ROOT/usr/lib",
+              "LD_PRELOAD": "$ROOT/usr/lib/libtermux-exec.so"
+            }
+          }
+        }
+      }
     }
   ]
 }
