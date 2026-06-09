@@ -140,6 +140,30 @@
           }
         }
       }
+    },
+    {
+      "name": "diffutils",
+      "version": "3.12",
+      "description": "GNU diff/cmp/diff3/sdiff. Termux-relocated multi-binary; Android arm64 only.",
+      "homepage": "https://www.gnu.org/software/diffutils/",
+      "platforms": {
+        "android": {
+          "arm64-v8a": {
+            "url": "https://github.com/mj-963/flutter_exec-registry/releases/download/pkgs-v1/diffutils-arm64-v8a.tar.gz",
+            "sha256": "2c5e350bc862ca2337dd56087f2d3680b5ec0630195bbb2be8e7a864f5572dfb",
+            "size": 1004484,
+            "kind": "archive",
+            "binDir": "usr/bin",
+            "env": {
+              "PREFIX": "$ROOT/usr",
+              "TERMUX_PREFIX": "$ROOT/usr",
+              "PATH": "$ROOT/usr/bin:$PATH",
+              "LD_LIBRARY_PATH": "$ROOT/usr/lib",
+              "LD_PRELOAD": "$ROOT/usr/lib/libtermux-exec.so"
+            }
+          }
+        }
+      }
     }
   ]
 }
